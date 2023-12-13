@@ -1,4 +1,4 @@
-package com.br.strategy;
+package dev.vanderloureiro.strategy;
 
 public class Main {
 

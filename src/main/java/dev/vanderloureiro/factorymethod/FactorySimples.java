@@ -1,4 +1,4 @@
-package com.br.factorymethod;
+package dev.vanderloureiro.factorymethod;
 
 public class FactorySimples {
 
