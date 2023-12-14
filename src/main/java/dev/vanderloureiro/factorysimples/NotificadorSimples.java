@@ -1,11 +1,4 @@
-package dev.vanderloureiro.factorymethod;
-
-public class FactorySimples {
-
-    public static void main(String args[]) {
-        NotificadorSimples notificador = NotificadorSimples.iniciarComEmail("teste@teste.com");
-    }
-}
+package dev.vanderloureiro.factorysimples;
 
 class NotificadorSimples {
 
@@ -18,5 +11,9 @@ class NotificadorSimples {
         NotificadorSimples notificadorSimples = new NotificadorSimples();
         notificadorSimples.email = email;
         return notificadorSimples;
+    }
+
+    public String getEmail() {
+        return this.email;
     }
 }
